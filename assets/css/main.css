@@ -1,0 +1,86 @@
+:root {
+    --text-color: #292929;
+    --text--white-color:#fff;
+    --text--black-color:#000000;
+    --white-color: #fff;
+}
+.wrapper{
+    color: var(--text-color);
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+}
+
+body{
+    margin:0;
+}
+
+/* Text Font */
+@font-face {
+    font-family: 'NotoSansJP-Black';
+    src: url('../font/Noto_Sans_JP/static/NotoSansJP-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'NotoSansJP-Bold';
+    src: url('../font/Noto_Sans_JP/static/NotoSansJP-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansJP-ExtraBold';
+    src: url('../font/Noto_Sans_JP/static/NotoSansJP-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansJP-ExtraLight';
+    src: url('../font/Noto_Sans_JP/static/NotoSansJP-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Light';
+    src: url('../font/Noto_Sans_JP/static/NotoSansJP-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Medium';
+    src: url('../font/Noto_Sans_JP/static/NotoSansJP-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Regular';
+    src: url('../font/Noto_Sans_JP/static/NotoSansJP-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansJP-SemiBold';
+    src: url('../font/Noto_Sans_JP/static/NotoSansJP-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansJP-Thin';
+    src: url('../font/Noto_Sans_JP/static/NotoSansJP-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

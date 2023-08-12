@@ -1,0 +1,116 @@
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 45px;
+  background-color: var(--white-color);
+  font-family: "NotoSansJP-Medium", sans-serif;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 100vw;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 999;
+}
+
+.header.toppage {
+  background-color: transparent;
+}
+
+.logo_title {
+  font-family: "NotoSansJP-ExtraBold", sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  text-transform: uppercase;
+  margin: 0;
+  color:var(--text--black-color);
+}
+
+.logo_slogan {
+  width: 150px;
+  height: 12.7px;
+  background: #000000;
+  font-size: 9px;
+  line-height: 12.7px;
+  text-align: center;
+  color: var(--text--white-color);
+  letter-spacing: 2px;
+}
+
+.navbar {
+  text-transform: uppercase;
+  display: flex;
+  gap: 35px;
+}
+.navbar_option {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_option > span {
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+}
+.navbar_option.active > span {
+  border-bottom: 2px solid #000000;
+}
+
+/* Floating Div */
+.top{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.top_floating_left {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-color: var(--white-color);
+    transform: rotate(-45deg) translateX(30vw) translateY(-77vw);
+}
+.top_floating_right {
+    position: absolute;
+    width: 80vw;
+    height: 80vw;
+    background-color: var(--white-color);
+    transform: rotate(-45deg) translateX(60vw) translateY(35vw);
+}
+
+.top_background{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../image/1044851.jpg'); 
+    background-size: cover;
+}
+
+.feature{
+    height: 120vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.feature_floating_left {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-color: var(--white-color);
+    transform: rotate(-45deg) translateX(50vw) translateY(-80vw);
+}
+.feature_floating_right {
+    position: absolute;
+    width: 80vw;
+    height: 80vw;
+    background-color: var(--white-color);
+    transform: rotate(-45deg) translateX(60vw) translateY(35vw);
+}
+
+.feature_background{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../image/1044851.jpg'); 
+    background-size: cover;
+}
