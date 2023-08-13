@@ -9,7 +9,7 @@ html{
 }
 .wrapper{
     color: var(--text-color);
-    overflow-x: hidden;
+    overflow: hidden;
     font-family: "NotoSansJP-Medium", sans-serif;
     position: relative;
     user-select: none;
